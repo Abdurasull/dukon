@@ -16,9 +16,9 @@ $xaridorlar=$pdostatement->fetchAll();
   <div class="container">
   	<table align="center">
   		<tr class="tr1">
-  			<td class="td1">Ismi</td>
-  			<td class="td1">Email</td>
-  			<td class="td1">Kiritgan kodi</td>
+  			<td class="td1 td2">Ismi</td>
+  			<td class="td1 td2">Email</td>
+  			<td class="td1 td2">Kiritgan kodi</td>
   		</tr>
   		<?php foreach ($xaridorlar as $value): ?>
   		<tr class="tr1">
@@ -28,6 +28,9 @@ $xaridorlar=$pdostatement->fetchAll();
   		</tr>
   		<?php endforeach; ?>
   	</table>
+  	<div class="Asosiy">
+  		<a href="index.php">Asosiy oynaga o`tish</a>
+  	</div>
   	
   </div>
 </body>

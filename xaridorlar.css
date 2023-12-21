@@ -34,3 +34,28 @@ table{
 	box-shadow: 0 0 10px white;
 	padding: 10px;
 }
+.Asosiy{
+	text-align: center;
+
+}
+a{
+	display: inline-block;
+	padding: 10px;
+	font-size: 25px;
+	background-color: black;
+	border-radius: 20px;
+	color:white;
+	text-decoration: none;
+	box-shadow: 0 0 20px green;
+	margin-bottom: 30px;
+}
+a:hover{
+
+
+	background-color: white;
+	color:black;
+	box-shadow: 0 0 20px white;
+}
+.td2{
+	font-size: 30px;
+}
