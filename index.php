@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PDO anketa</title>
+	<link href="anketa.css" rel="stylesheet">
+</head>
+<body>
+		<div class="container">
+			<form action="ruyxatgaol.php" method="post" class="col">
+				<table  align="center" >
+					<tr>
+						<td><h1 align="center">Register</h1></td>
+					</tr>
+					<tr>
+						<td><input type="text" name="name" placeholder="User Name" required></td>
+					</tr>
+					<tr>
+						<td><input type="text" name="Email" placeholder="Email ID" required></td>
+					</tr>
+					<tr>
+						<td><input type="password" name="password" placeholder="Password" required></td>
+					</tr>
+					<tr>
+						<td><input type="password" placeholder="Confirm Password" required></td>
+					</tr>
+					<tr>
+						<td><input class="checkbox" type="checkbox" name="checkbox" value="yes" >I agree with term & conditions<br/></td>
+					</tr>
+					<tr>
+						<td><BUTTON>REGISTER</BUTTON></td>
+					</tr>					
+				</table>
+			</form>
+		</div>
+</body>
+</html>
